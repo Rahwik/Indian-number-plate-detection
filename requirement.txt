@@ -1,0 +1,3 @@
+pip install paddleocr
+pip install paddlepaddle
+#python -m streamlit run app.py
