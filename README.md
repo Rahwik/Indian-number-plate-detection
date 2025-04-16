@@ -1,8 +1,6 @@
 # PROJECT: Number Plate Detection and Classification System
 
----
-
-![Alt Text](https://github.com/Rahwik/Indian-number-plate-detection/blob/main/Sandro%20Tatinashvili%20in%20Tbilisi%2C%20Georgia.gif?raw=true)
+![Car Detection](https://raw.githubusercontent.com/Rahwik/Indian-number-plate-detection/main/car.gif)
 
 **Overview**  
 This system uses a YOLOv8 model to detect vehicle number plates from a live camera feed. Once detected, it extracts the plate text using an OCR fallback pipeline, identifies the plate color, classifies the vehicle type, stores the best result over a 10-second window, logs the output into a CSV, and sends the data to a defined API endpoint.
